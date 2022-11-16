@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.navbarActions {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbarActions {
+    display: none;
+  }
+  .logo > img {
+    width: 140px;
+    height: 140px;
+  }
+}
